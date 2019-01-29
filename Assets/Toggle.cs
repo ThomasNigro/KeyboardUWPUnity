@@ -5,8 +5,8 @@ using UnityEngine;
 public class Toggle : MonoBehaviour {
 
     // Not relevant for the sample repro
-    public void Togle()
+    public void Toggle()
     {
-        GameObject.Find("InputField").GetComponent<coffe>().DeselectForReal();
+        GameObject.Find("InputField").GetComponent<KeyboardTests>().DeselectForReal();
     }
 }
